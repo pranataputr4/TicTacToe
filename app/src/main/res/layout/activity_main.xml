@@ -90,6 +90,10 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             tools:ignore="HardcodedText" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="15sp"
+            tools:ignore="UselessLeaf" />
         <Button
             android:textStyle="bold"
             android:textColor="#3B4EF3"
