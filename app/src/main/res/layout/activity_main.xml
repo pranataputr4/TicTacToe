@@ -12,6 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="NewApi,UnusedAttribute" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GoToGamePage"
+        android:text="test ke game page"
+        tools:ignore="HardcodedText" />
     <LinearLayout
         android:orientation="vertical"
         android:gravity="center"
@@ -95,6 +101,8 @@
             android:layout_height="15sp"
             tools:ignore="UselessLeaf" />
         <Button
+            android:id="@+id/btn_login"
+            android:onClick="GoToGamePage"
             android:textStyle="bold"
             android:textColor="#3B4EF3"
             android:background="@drawable/foem"
