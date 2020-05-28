@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <Toolbar
         android:titleTextColor="#FAFAFAFA"
         android:id="@+id/toolbar"
@@ -12,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="NewApi,UnusedAttribute" />
+
     <LinearLayout
         android:orientation="vertical"
         android:gravity="center"
@@ -32,7 +34,8 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             tools:ignore="HardcodedText" />
-        </LinearLayout>
+    </LinearLayout>
+
     <LinearLayout
         android:orientation="vertical"
         android:padding="15sp"
@@ -50,11 +53,13 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             tools:ignore="HardcodedText" />
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="25sp"
             tools:ignore="UselessLeaf" />
         <EditText
+            android:id="@+id/username"
             android:padding="10sp"
             android:background="@drawable/foem"
             android:drawableStart="@drawable/user"
@@ -69,6 +74,7 @@
             android:layout_height="15sp"
             tools:ignore="UselessLeaf" />
         <EditText
+            android:id="@+id/password"
             android:padding="10sp"
             android:background="@drawable/foem"
             android:drawableStart="@drawable/key"
@@ -95,6 +101,7 @@
             android:layout_height="15sp"
             tools:ignore="UselessLeaf" />
         <Button
+            android:id="@+id/loginbtn"
             android:textStyle="bold"
             android:textColor="#3B4EF3"
             android:background="@drawable/foem"
@@ -117,6 +124,7 @@
             android:gravity="center_horizontal"
             tools:ignore="HardcodedText" />
         <TextView
+            android:id="@+id/daftarUser"
             android:textAlignment="center"
             android:textStyle="bold"
             android:textSize="20sp"
