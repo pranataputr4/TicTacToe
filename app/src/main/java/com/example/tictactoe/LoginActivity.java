@@ -17,11 +17,13 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+
 public class LoginActivity extends AppCompatActivity {
     Button mLoginBtn;
     TextView mCreateUserBtn;
     EditText  mEmail, mPassword;
     FirebaseAuth mFirebase;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(Task<AuthResult> task){
                         if (task.isSuccessful()){
-                            Toast.makeText(LoginActivity.this, "User Telah Dibuat.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, "Selamat Datang di Tictac Toe Game.", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         }
                         else{
