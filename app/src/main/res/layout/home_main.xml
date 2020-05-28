@@ -1,19 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+    <ImageView
+        android:src="@drawable/tictactoe"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="50mm"/>
+    <ImageView
+        android:src="@drawable/tictactoe"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="50mm"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
 
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Logout"
-        android:onClick="logout"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME!"
+            android:layout_marginBottom="30dp"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Single vs Com"
+            android:textColor="#3B4EF3"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/foem"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Multiplayer"
+            android:textColor="#3B4EF3"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/foem"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Continue Game"
+            android:textColor="#3B4EF3"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/foem"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Leaderboard"
+            android:textColor="#3B4EF3"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/foem"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:textColor="#3B4EF3"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/foem"
+            android:layout_marginBottom="10dp" />
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:onClick="logout"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="#3B4EF3"
+            android:textAllCaps="false"
+            android:background="@drawable/foem"/>
+    </LinearLayout>
+
+</RelativeLayout>
