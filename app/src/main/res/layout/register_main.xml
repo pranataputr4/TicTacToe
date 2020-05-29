@@ -31,7 +31,7 @@
             android:layout_marginBottom="60dp" />
 
         <EditText
-            android:id="@+id/namaLengkap"
+            android:id="@+id/namaLengkapProfil"
             android:layout_width="350dp"
             android:layout_height="50sp"
             android:layout_marginBottom="10dp"

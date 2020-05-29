@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(Task<AuthResult> task){
                         if (task.isSuccessful()){
-                            Toast.makeText(LoginActivity.this, "Selamat Datang di Tictac Toe Game.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, "Selamat Datang di Tictac  Toe Game.", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         }
                         else{
