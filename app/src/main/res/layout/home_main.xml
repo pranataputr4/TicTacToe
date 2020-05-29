@@ -36,6 +36,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btn_single_player"
             android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:text="Single vs Com"
@@ -43,6 +44,7 @@
             android:layout_gravity="center"
             android:textAllCaps="false"
             android:background="@drawable/foem"
+            android:onClick="goToGamePage"
             android:layout_marginBottom="10dp" />
 
         <Button
