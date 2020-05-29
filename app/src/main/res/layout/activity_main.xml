@@ -88,13 +88,15 @@
             android:layout_width="match_parent"
             android:layout_height="15sp"
             tools:ignore="UselessLeaf" />
+
         <TextView
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:text="Lupa password?"
+            android:id="@+id/lupaPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
+            android:text="Lupa password?"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />
         <RelativeLayout
             android:layout_width="match_parent"
