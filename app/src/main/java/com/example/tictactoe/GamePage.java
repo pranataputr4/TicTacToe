@@ -11,20 +11,20 @@ import android.widget.Toast;
 
 public class GamePage extends AppCompatActivity implements View.OnClickListener{
 
-    private Button[][] buttons = new Button[3][3];
-    private boolean player1Turn = true;
-    private int roundCount;
+    Button[][] buttons = new Button[3][3];
+    boolean player1Turn = true;
+    int roundCount;
 
-    private int player1Points;
-    private int player2Points;
+    int player1Points;
+    int player2Points;
 
-    private TextView textViewPlayer1;
-    private TextView textViewPlayer2;
+    TextView textViewPlayer1;
+    TextView textViewPlayer2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_game_page);
 
         textViewPlayer1 = findViewById(R.id.text_p1);
         textViewPlayer2 = findViewById(R.id.text_p2);

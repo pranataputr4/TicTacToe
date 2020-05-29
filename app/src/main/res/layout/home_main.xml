@@ -36,14 +36,15 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/singleCom"
             android:layout_width="150sp"
             android:layout_height="wrap_content"
-            android:text="Single vs Com"
-            android:textColor="#3B4EF3"
             android:layout_gravity="center"
-            android:textAllCaps="false"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/foem"
-            android:layout_marginBottom="10dp" />
+            android:text="Single vs Com"
+            android:textAllCaps="false"
+            android:textColor="#3B4EF3" />
 
         <Button
             android:layout_width="150sp"
