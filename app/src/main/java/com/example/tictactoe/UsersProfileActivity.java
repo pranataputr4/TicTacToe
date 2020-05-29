@@ -38,7 +38,7 @@ public class UsersProfileActivity extends AppCompatActivity {
 
         userId = fAuth.getCurrentUser().getUid();
 
-        DocumentReference documentReference = fStore.collection("Users").document(userId);
+        DocumentReference documentReference = fStore.collection("users").document(userId);
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {

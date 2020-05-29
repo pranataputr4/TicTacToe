@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
                 String password = mPassword.getText().toString().trim();
 
                 if (TextUtils.isEmpty(email)){
-                    mEmail.setError("Silahkan Masukkan Username");
+                    mEmail.setError("Silahkan Masukkan Email");
                     return;
                 }
                 if (TextUtils.isEmpty(password)){
