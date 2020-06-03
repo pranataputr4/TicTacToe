@@ -5,36 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".GamePage">
+    tools:context=".GamePage"
+    android:background="@drawable/background_green">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:textSize="60dp"
-            android:text="TIC TAC TOE" />
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:text="TIC TAC TOE"
+            android:textColor="#FFFF" />
     </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/foem1"
+        android:layout_marginBottom="15dp">
 
         <TextView
             android:id="@+id/text_p1"
+            android:paddingLeft="30dp"
+            android:paddingTop="11dp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Player 1 : 0"
-            android:textSize="30sp" />
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"/>
         <TextView
             android:id="@+id/text_p2"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:textColor="#FFFF"
             android:layout_below="@+id/text_p1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="Player 2 : 0"
-            android:textSize="30sp" />
+            android:textSize="25sp"
+            android:layout_weight="1"/>
 
         <Button
             android:id="@+id/button_reset"
@@ -44,6 +63,8 @@
             android:layout_centerVertical="true"
             android:layout_margin="30dp"
             android:text="Reset"
+            android:layout_weight="1"
+            android:background="@drawable/foem"
             android:layout_alignParentRight="true" />
 
     </RelativeLayout>
@@ -58,19 +79,25 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:background="@drawable/foem"
+            android:layout_margin="5dp"/>
         <Button
             android:id="@+id/button_01"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:background="@drawable/foem"
+            android:layout_margin="5dp"/>
         <Button
             android:id="@+id/button_02"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:background="@drawable/foem"
+            android:layout_margin="5dp"/>
 
     </LinearLayout>
 
@@ -84,19 +111,25 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:background="@drawable/foem"
+            android:layout_margin="5dp"/>
         <Button
             android:id="@+id/button_11"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:background="@drawable/foem"
+            android:layout_margin="5dp"/>
         <Button
             android:id="@+id/button_12"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:background="@drawable/foem"
+            android:layout_margin="5dp"/>
 
     </LinearLayout>
 
@@ -110,19 +143,25 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:background="@drawable/foem"
+            android:layout_margin="5dp"/>
         <Button
             android:id="@+id/button_21"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:background="@drawable/foem"
+            android:layout_margin="5dp" />
         <Button
             android:id="@+id/button_22"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"/>
+            android:textSize="60sp"
+            android:background="@drawable/foem"
+            android:layout_margin="5dp"/>
 
     </LinearLayout>
     
