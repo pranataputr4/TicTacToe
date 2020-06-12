@@ -47,6 +47,7 @@
             android:textColor="#3B4EF3" />
 
         <Button
+            android:id="@+id/multiplayer"
             android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:text="Multiplayer"
